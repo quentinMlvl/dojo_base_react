@@ -1,0 +1,84 @@
+/*** RESET CSS ***/
+*, *::before, *::after { box-sizing: border-box; outline: none; }
+ul, ol { padding: 0; }
+body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote, dl, dd { margin: 0; }
+body { min-height: 100vh; scroll-behavior: smooth; text-rendering: optimizeSpeed; line-height: 1.5; }
+ul, ol { list-style: none; }
+a:not() { text-decoration-skip-ink: auto; }
+img { max-width: 100%; display: block; }
+article > * + * { margin-top: 1em; }
+input, button, textarea, select { font: inherit; }
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+.App {
+width: 100%;
+max-width: 900px;
+margin: 0 auto;
+}
+
+.App section {
+width: 100%;
+}
+
+.App section ul {
+
+}
+
+.App section ul li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  border-top: 1px solid #F5F5F5;
+}
+.App section ul li:hover {
+  background: #F5F5F5;
+}
+
+.App section ul li blockquote {
+
+}
+
+.App section ul li blockquote p {
+font-size: 18px;
+font-weight: 600;
+}
+
+.App section ul li blockquote legend {
+font-size: 16px;
+}
+
+.App section ul li blockquote legend em {
+font-style: italic;
+}
+
+.App section ul li .buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 8px;
+}
+
+.App section ul li .buttons button {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+color: #FFFFFF;
+border-radius: 5px;
+border: none;
+margin: 0 0 0 15px;
+padding: 5px 8px;
+cursor: pointer;
+}
+
+.App section ul li .buttons button span {
+
+}
+.App section ul li .buttons button strong {
+padding: 0 5px 0 10px;
+border-left: 1px solid #F5F5F5;
+}

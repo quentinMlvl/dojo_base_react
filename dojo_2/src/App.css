@@ -1,0 +1,23 @@
+/*
+label input[type=checkbox] + span {
+font-size: 16px;
+color: #000000;
+}
+
+label input[type=checkbox]:checked + span {
+font-style: italic;
+text-decoration: line-through;
+color: #999999;
+}
+*/
+
+div span {
+font-size: 16px;
+color: #000000;
+}
+
+div.done span {
+font-style: italic;
+text-decoration: line-through;
+color: #999999;
+}
